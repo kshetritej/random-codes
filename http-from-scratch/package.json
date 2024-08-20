@@ -1,0 +1,17 @@
+{
+  "name": "http-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.0.2",
+    "net": "^1.0.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}

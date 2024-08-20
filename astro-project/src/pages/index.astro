@@ -1,0 +1,21 @@
+---
+import '@/styles/globals.css'
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import {Button} from "@/components/ui/button";
+---
+
+<Layout title="Welcome to Astro.">
+<main>
+
+    <nav className="flex flex-row">
+        <a> Logo </a>
+        <div> <input type="search" /> </div>
+        <Button> Login </Button>
+    </nav>
+    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+</main>
+</Layout>
+
+<style>
+</style>
